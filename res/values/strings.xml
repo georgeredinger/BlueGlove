@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Bluetooth2</string>
+    <string name="title_activity_main">Blue Glove</string>
+    <string name="btn_ON">Enable</string>
+    <string name="btn_OFF">Disable</string>
+
+</resources>

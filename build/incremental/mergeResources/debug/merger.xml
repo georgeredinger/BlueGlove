@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/george/android/BlueGlove/res" >
+            <file
+                path="/home/george/android/BlueGlove/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Light" />
+            </file>
+            <file
+                path="/home/george/android/BlueGlove/res/values/strings.xml"
+                qualifiers="" >
+                <string name="title_activity_main" >Blue Glove
+                </string>
+                <string name="app_name" >Bluetooth2
+                </string>
+                <string name="btn_ON" >Enable
+                </string>
+                <string name="btn_OFF" >Disable
+                </string>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/george/android/BlueGlove/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                path="/home/george/android/BlueGlove/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+            <file
+                name="ic_action_search"
+                path="/home/george/android/BlueGlove/res/drawable-hdpi/ic_action_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="cxemnet_logo"
+                path="/home/george/android/BlueGlove/res/drawable-hdpi/cxemnet_logo.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/george/android/BlueGlove/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                path="/home/george/android/BlueGlove/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" />
+            </file>
+            <file
+                name="ic_action_search"
+                path="/home/george/android/BlueGlove/res/drawable-mdpi/ic_action_search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/george/android/BlueGlove/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="/home/george/android/BlueGlove/res/drawable-xhdpi/ic_action_search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/george/android/BlueGlove/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/home/george/android/BlueGlove/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/home/george/android/BlueGlove/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/george/android/BlueGlove/build-types/debug/res" />
+    </dataSet>
+
+</merger>
